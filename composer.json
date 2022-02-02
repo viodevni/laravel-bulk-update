@@ -1,0 +1,26 @@
+{
+    "name": "viodev/laravel-bulk-update",
+    "description": "Laravel helper for bulk updating records when the data varies, using CASE update statements.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Phillip McKeown",
+            "email": "phillip@viodev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Viodev\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^7.4|^8.0|^8.1",
+        "laravel/database": "^7.0|^8.0|^9.0",
+        "illuminate/support": "^7.0|^8.0|^9.0"
+    }
+}
